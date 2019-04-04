@@ -1,0 +1,14 @@
+com/jackywong/generator/processor/factory/FactoryAnnotatedClass.class
+com/jackywong/generator/processor/jctreetry/UtilProcessor$1.class
+com/jackywong/generator/processor/jctreetry/UtilProcessor$2.class
+com/jackywong/generator/annotation/jctreetry/Util.class
+com/jackywong/generator/util/jctreetry/JcTrees.class
+com/jackywong/generator/processor/factory/FactoryGroupedClasses.class
+com/jackywong/generator/processor/factory/FactoryProcessor.class
+com/jackywong/generator/processor/mylombok/MyLombokProcessor$1.class
+com/jackywong/generator/processor/factory/ProcessingException.class
+com/jackywong/generator/processor/jctreetry/UtilProcessor.class
+com/jackywong/generator/processor/mylombok/MyLombokProcessor.class
+com/jackywong/generator/annotation/mylombok/MyLombok.class
+com/jackywong/generator/annotation/factory/Factory.class
+META-INF/services/javax.annotation.processing.Processor
