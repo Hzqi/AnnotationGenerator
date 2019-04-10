@@ -2,29 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64d442ba-a945-4100-a0d1-a3cdfd2a006e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/ToMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/MapperWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/jctreetry/UtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/jctreetry/UtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/CalzonePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/CalzonePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/MargheritaPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/MargheritaPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/Tiramisu.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/Tiramisu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/meal/MealFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/meal/MealFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/jctreetry/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/mylombok/MyLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/MyLombok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryAnnotatedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryAnnotatedClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryGroupedClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryGroupedClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/jctreetry/UtilProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/jctreetry/UtilProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mylombok/MyLombokProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mylombok/MyLombokProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/target/classes/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" afterPath="$PROJECT_DIR$/processor/target/classes/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/processor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/processor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/meal/MealFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/tomapper/CarMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/tomapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/target/classes/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/example/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,28 +34,32 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Processor" value="1" />
-          <entry key="java" value="24" />
+          <entry key="class" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="27" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="27" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="25" />
           <entry key="java" value="1838" />
-          <entry key="txt" value="24" />
+          <entry key="txt" value="43" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1838" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="PLAIN_TEXT" value="68" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
@@ -75,44 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/MapperWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mylombok/MyLombokProcessor.java">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryGroupedClasses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="67" column="57" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/ToMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -120,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
+            <state relative-caret-position="448">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,42 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/jctreetry/JcTrees.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+            <state relative-caret-position="184">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -192,9 +120,10 @@
         <option value="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/Car.java" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java" />
         <option value="$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/tomapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" />
         <option value="$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/tomapper/CarMapper.java" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/MapperWriter.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -278,46 +207,6 @@
             <path>
               <item name="generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="tomapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="processor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,6 +269,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
               <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
               <item name="mylombok" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -392,12 +292,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554882493622" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554884678790" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -451,12 +352,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554876914602</updated>
-      <workItem from="1554876916064" duration="5520000" />
+      <workItem from="1554876916064" duration="7736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5520000" />
+    <option name="totallyTimeSpent" value="7736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1393" height="854" extended-state="0" />
@@ -467,16 +368,16 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944486" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,23 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mylombok/MyLombokProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryGroupedClasses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -645,23 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/tomapper/CarMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -677,11 +544,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/MapperWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="545">
+          <caret line="67" column="77" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/tomapper/CarMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mylombok/MyLombokProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/target/classes/com/jackywong/generator/example/mylombok/MyPojo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -777,6 +695,7 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean" />
     <option value="clean compile" />
   </component>
 </project>

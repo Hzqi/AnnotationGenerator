@@ -1,4 +1,0 @@
-com.jackywong.generator.processor.factory.FactoryProcessor
-com.jackywong.generator.processor.jctreetry.UtilProcessor
-com.jackywong.generator.processor.mapper.ToMapperProcessor
-com.jackywong.generator.processor.mylombok.MyLombokProcessor
