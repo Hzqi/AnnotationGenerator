@@ -1,4 +1,4 @@
-package com.jackywong.generator.annotation.mylombok;
+package com.jackywong.generator.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

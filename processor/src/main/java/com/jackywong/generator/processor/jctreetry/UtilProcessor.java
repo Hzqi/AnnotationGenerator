@@ -4,7 +4,7 @@ package com.jackywong.generator.processor.jctreetry;
  * Created by huangziqi on 2019/4/4
  */
 import com.google.auto.service.AutoService;
-import com.jackywong.generator.annotation.jctreetry.Util;
+import com.jackywong.generator.annotation.Util;
 import com.jackywong.generator.util.jctreetry.JcTrees;
 import com.sun.source.tree.Tree;
 import com.sun.source.util.Trees;
@@ -27,7 +27,7 @@ import java.util.Set;
 /**
  * 工具注解执行器
  *
- * @see com.jackywong.generator.annotation.jctreetry.Util 工具类注解
+ * @see Util 工具类注解
  * 原作者 Created by bbhou on 2017/10/12.
  */
 @AutoService(Processor.class)

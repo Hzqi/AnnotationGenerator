@@ -1,6 +1,6 @@
 package com.jackywong.generator.processor.factory;
 
-import com.jackywong.generator.annotation.factory.Factory;
+import com.jackywong.generator.annotation.Factory;
 import com.squareup.javapoet.JavaFile;
 import com.squareup.javapoet.MethodSpec;
 import com.squareup.javapoet.TypeName;

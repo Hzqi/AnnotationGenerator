@@ -1,7 +1,7 @@
 package com.jackywong.generator.processor.factory;
 
 
-import com.jackywong.generator.annotation.factory.Factory;
+import com.jackywong.generator.annotation.Factory;
 
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.type.DeclaredType;

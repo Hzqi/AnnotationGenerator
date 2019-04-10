@@ -1,4 +1,4 @@
-package com.jackywong.generator.annotation.jctreetry;
+package com.jackywong.generator.annotation;
 
 /**
  * Created by huangziqi on 2019/4/4

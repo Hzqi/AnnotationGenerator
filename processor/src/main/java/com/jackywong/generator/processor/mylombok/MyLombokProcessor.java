@@ -1,7 +1,7 @@
 package com.jackywong.generator.processor.mylombok;
 
 import com.google.auto.service.AutoService;
-import com.jackywong.generator.annotation.mylombok.MyLombok;
+import com.jackywong.generator.annotation.MyLombok;
 import com.sun.source.tree.Tree;
 import com.sun.tools.javac.api.JavacTrees;
 import com.sun.tools.javac.code.Flags;
@@ -14,7 +14,6 @@ import com.sun.tools.javac.util.*;
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
-import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 import java.util.Set;
@@ -24,7 +23,7 @@ import java.util.Set;
  * 原作者是https://wiootk.github.io/blog/back/2018/02/08/myLombok.html#%E6%B3%A8%E8%A7%A3%E5%A4%84%E7%90%86%E5%99%A8
  */
 @AutoService(Processor.class)
-@SupportedAnnotationTypes("com.jackywong.generator.annotation.mylombok.MyLombok")//该处理器需要处理的注解
+@SupportedAnnotationTypes("com.jackywong.generator.annotation.MyLombok")//该处理器需要处理的注解
 @SupportedSourceVersion(SourceVersion.RELEASE_8)//该处理器支持的源码版本
 public class MyLombokProcessor extends AbstractProcessor {
     //在编译期打log用

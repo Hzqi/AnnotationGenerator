@@ -1,7 +1,7 @@
 package com.jackywong.generator.processor.factory;
 
 import com.google.auto.service.AutoService;
-import com.jackywong.generator.annotation.factory.Factory;
+import com.jackywong.generator.annotation.Factory;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
