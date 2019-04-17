@@ -1,5 +1,6 @@
 package com.jackywong.generator.processor.mapper;
 
+import com.jackywong.generator.annotation.TheMapper;
 import com.jackywong.generator.annotation.ToMapper;
 import com.squareup.javapoet.*;
 
@@ -33,8 +34,11 @@ public class MapperWriter {
 
         MethodSpec.Builder method = createMapper(elementUtils);
         //创建class类
-        TypeSpec typeSpec = TypeSpec.classBuilder(mapperName).addModifiers(Modifier.PUBLIC)
-                .addMethod(method.build()).build();
+        TypeSpec typeSpec = TypeSpec.classBuilder(mapperName)
+                .addModifiers(Modifier.PUBLIC)
+                .addMethod(method.build())
+                .addAnnotation(TheMapper.class)
+                .build();
         // Write file
         JavaFile.builder(packageName, typeSpec).build().writeTo(filer);
     }
