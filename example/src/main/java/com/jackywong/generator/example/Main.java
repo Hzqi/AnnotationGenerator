@@ -2,6 +2,7 @@ package com.jackywong.generator.example;
 
 import com.jackywong.generator.example.jctreetry.UtilTest;
 import com.jackywong.generator.example.mylombok.MyPojo;
+import com.jackywong.generator.example.mylombok.MyPojoMapper;
 //import com.jackywong.generator.example.tomapper.Car;
 //import com.jackywong.generator.example.tomapper.CarMapper;
 //import com.jackywong.generator.example.tomapper.User;

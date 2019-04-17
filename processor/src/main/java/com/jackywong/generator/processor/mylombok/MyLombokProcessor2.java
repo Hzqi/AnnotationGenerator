@@ -5,6 +5,7 @@ import com.jackywong.generator.annotation.TheMapper;
 import com.sun.source.tree.Tree;
 import com.sun.tools.javac.api.JavacTrees;
 import com.sun.tools.javac.code.Flags;
+import com.sun.tools.javac.code.TypeTag;
 import com.sun.tools.javac.processing.JavacProcessingEnvironment;
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.tree.TreeMaker;
@@ -126,6 +127,26 @@ public class MyLombokProcessor2 extends AbstractProcessor {
         //构造表达式
         statements.append(
                 mapVar
+        );
+
+        //构造内容
+        ListBuffer<JCTree.JCExpression> putArgs = new ListBuffer<>();
+        JCTree.JCLiteral key = treeMaker.Literal(TypeTag.CLASS,"test");
+        JCTree.JCLiteral value = treeMaker.Literal(TypeTag.CLASS,"test");
+        putArgs.append(key);
+        putArgs.append(value);
+        JCTree.JCMethodInvocation methodInvocation = treeMaker.Apply(
+                List.nil(),                                             //没有类型参数
+                treeMaker.Select(                                       //选择器map.put
+                        treeMaker.Ident(names.fromString("map")),
+                        names.fromString("put")
+                ),
+                putArgs.toList()
+        );
+        statements.append(
+                treeMaker.Exec(
+                        methodInvocation
+                )
         );
 
         //表达式的返回语句 return map
