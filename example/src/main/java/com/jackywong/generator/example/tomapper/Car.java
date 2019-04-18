@@ -1,5 +1,6 @@
 package com.jackywong.generator.example.tomapper;
 
+import com.jackywong.generator.annotation.CreateMapper;
 import com.jackywong.generator.annotation.ToMapper;
 
 import java.util.Date;
@@ -8,6 +9,7 @@ import java.util.Date;
  * Created by huangziqi on 2019/4/10
  */
 @ToMapper
+@CreateMapper
 public class Car {
     private String name;
     private Date date;

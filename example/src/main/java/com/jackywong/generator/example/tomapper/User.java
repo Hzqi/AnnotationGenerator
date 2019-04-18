@@ -1,11 +1,12 @@
 package com.jackywong.generator.example.tomapper;
 
+import com.jackywong.generator.annotation.CreateMapper;
 import com.jackywong.generator.annotation.ToMapper;
 
 /**
  * Created by huangziqi on 2019/4/10
  */
-@ToMapper
+@CreateMapper
 public class User {
     private String name;
     private Integer age;

@@ -2,9 +2,6 @@ package com.jackywong.generator.processor.mapper;
 
 import com.google.auto.service.AutoService;
 import com.jackywong.generator.annotation.CreateMapper;
-import com.jackywong.generator.annotation.Factory;
-import com.jackywong.generator.annotation.ToMapper;
-import com.jackywong.generator.processor.factory.ProcessingException;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
@@ -43,8 +40,10 @@ public class CreateMapperProcessor extends AbstractProcessor {
         try {
             for (Element annotatedElement : roundEnv.getElementsAnnotatedWith(CreateMapper.class)) {
                 if (annotatedElement.getKind() != ElementKind.CLASS) {
-                    throw new ProcessingException(annotatedElement, "Only classes can be annotated with @%s",
-                            Factory.class.getSimpleName());
+                    throw new IllegalAccessException(
+                            String.format("Only classes can be annotated with @%s",
+                            CreateMapper.class.getSimpleName())
+                    );
                 }
 
                 //直接将Element转换成TypeElement，不是的就已经在上面过滤了
@@ -53,9 +52,7 @@ public class CreateMapperProcessor extends AbstractProcessor {
                 MapperWriter writer = new MapperWriter(typeElement);
                 writer.generateCode(elementUtils,filer);
             }
-        } catch (ProcessingException ex){
-            error(ex.getElement(), ex.getMessage());
-        } catch (IOException | ClassNotFoundException e) {
+        } catch (IOException | ClassNotFoundException | IllegalAccessException e) {
             error(null, e.getMessage());
         }
 

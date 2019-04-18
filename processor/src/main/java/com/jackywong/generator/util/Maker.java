@@ -1,4 +1,4 @@
-package com.jackywong.generator.util.jctreetry;
+package com.jackywong.generator.util;
 
 import com.sun.tools.javac.api.JavacTrees;
 import com.sun.tools.javac.code.Flags;

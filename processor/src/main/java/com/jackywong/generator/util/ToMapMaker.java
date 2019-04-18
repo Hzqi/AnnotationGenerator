@@ -1,6 +1,5 @@
-package com.jackywong.generator.util.jctreetry;
+package com.jackywong.generator.util;
 
-import com.jackywong.generator.annotation.ToMapper;
 import com.sun.tools.javac.api.JavacTrees;
 import com.sun.tools.javac.code.Flags;
 import com.sun.tools.javac.code.TypeTag;
@@ -10,12 +9,9 @@ import com.sun.tools.javac.util.List;
 import com.sun.tools.javac.util.ListBuffer;
 import com.sun.tools.javac.util.Names;
 
-import javax.annotation.processing.Messager;
 import javax.lang.model.element.Modifier;
-import javax.tools.Diagnostic;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 
 /**
  * Created by huangziqi on 2019/4/18

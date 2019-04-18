@@ -1,9 +1,8 @@
 package com.jackywong.generator.processor.mapper;
 
 import com.google.auto.service.AutoService;
-import com.jackywong.generator.annotation.MyLombok;
 import com.jackywong.generator.annotation.ToMapper;
-import com.jackywong.generator.util.jctreetry.ToMapMaker;
+import com.jackywong.generator.util.ToMapMaker;
 import com.sun.source.tree.Tree;
 import com.sun.tools.javac.api.JavacTrees;
 import com.sun.tools.javac.processing.JavacProcessingEnvironment;
@@ -11,7 +10,6 @@ import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.tree.TreeMaker;
 import com.sun.tools.javac.tree.TreeTranslator;
 import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.List;
 import com.sun.tools.javac.util.ListBuffer;
 import com.sun.tools.javac.util.Names;
 

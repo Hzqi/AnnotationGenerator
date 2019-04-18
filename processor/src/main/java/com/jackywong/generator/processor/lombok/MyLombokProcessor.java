@@ -1,4 +1,4 @@
-package com.jackywong.generator.processor.mylombok;
+package com.jackywong.generator.processor.lombok;
 
 import com.google.auto.service.AutoService;
 import com.jackywong.generator.annotation.MyLombok;
