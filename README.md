@@ -39,6 +39,12 @@ There are currently three annotations in class level: `@CreateMapper @MyLombok @
 * Automatically add the Getter Setter method. (This is definitely not the famous Lombok function, I am also a reference learning, I hope not to compare)
 * Automatically add toMap method
 
+
+注意，因为编译器的关系，有构造方法时无法使用@Lombok
+
+Note that @Lombok cannot be used when there is a constructor because of the compiler relationship.
+
+
 如源代码：(Such as source code:)
 
 ```java

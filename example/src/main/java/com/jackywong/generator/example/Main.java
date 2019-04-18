@@ -13,8 +13,8 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         MyPojo myPojo = new MyPojo();
-        myPojo.setName("polllobok");
-        myPojo.setAge(0);
+//        myPojo.setName("polllobok");
+//        myPojo.setAge(0);
         User user = new User("polllobok",0);
 
         System.out.println(myPojo.toMap());

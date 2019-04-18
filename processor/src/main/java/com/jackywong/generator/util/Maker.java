@@ -63,6 +63,20 @@ public class Maker {
     }
 
     /**
+     * 直接通过类型创建(变量、方法)类型 如Map<String,Object>
+     * @param type 类型名称
+     * @param genericTypes 泛型类型列表
+     * @return
+     */
+    public JCTree.JCTypeApply createTypeApply(JCTree.JCExpression type, List<JCTree.JCExpression> genericTypes) {
+        JCTree.JCTypeApply typeApply = treeMaker.TypeApply(
+                type,
+                genericTypes
+        );
+        return typeApply;
+    }
+
+    /**
      * 创建对象 如 new HashMap<String,Object>
      * @param classType 对象类型
      * @param params new对象参数
@@ -91,8 +105,23 @@ public class Maker {
     public JCTree.JCVariableDecl createVarAssigInit(String varName, JCTree.JCTypeApply varType, JCTree.JCNewClass objectType) {
         JCTree.JCVariableDecl varExpr = treeMaker.VarDef(
                 treeMaker.Modifiers(Flags.BLOCK),
-                names.fromString("map"),
+                names.fromString(varName),
                 varType,objectType
+        );
+        return varExpr;
+    }
+
+    /**
+     * 创建方法的参数
+     * @param varName
+     * @param varType
+     * @return
+     */
+    public JCTree.JCVariableDecl createMethodParam(String varName, JCTree.JCExpression varType){
+        JCTree.JCVariableDecl varExpr = treeMaker.VarDef(
+                treeMaker.Modifiers(Flags.PARAMETER),
+                names.fromString(varName),
+                varType,null
         );
         return varExpr;
     }
