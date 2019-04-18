@@ -2,7 +2,7 @@ package com.jackywong.generator.example;
 
 import com.jackywong.generator.example.jctreetry.UtilTest;
 import com.jackywong.generator.example.mylombok.MyPojo;
-import com.jackywong.generator.example.mylombok.MyPojoMapper;
+import com.jackywong.generator.example.tomapper.User;
 //import com.jackywong.generator.example.tomapper.Car;
 //import com.jackywong.generator.example.tomapper.CarMapper;
 //import com.jackywong.generator.example.tomapper.User;
@@ -17,14 +17,11 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         MyPojo myPojo = new MyPojo();
+        myPojo.setName("polllobok");
+        myPojo.setAge(0);
+        User user = new User("polllobok",0);
 
-//        User user = new User("jacky",20);
-//        Car car = new Car("单车",new Date());
-//
-//        Map<String,Object> map1 = UserMapper.toMap(user);
-//        Map<String,Object> map2 = CarMapper.toMap(car);
-//
-//        System.out.println(map1);
-//        System.out.println(map2);
+        System.out.println(myPojo.toMap());
+        System.out.println(user.toMap());
     }
 }

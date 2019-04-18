@@ -26,7 +26,9 @@ import java.util.Set;
 /**
  * Created by huangziqi on 2019/4/16
  * 试一下覆盖已编写的方法
+ * 学习用，已放弃
  */
+@Deprecated
 @AutoService(Processor.class)
 @SupportedAnnotationTypes({"com.jackywong.generator.annotation.TheMapper"})//该处理器需要处理的注解
 @SupportedSourceVersion(SourceVersion.RELEASE_8)//该处理器支持的源码版本
