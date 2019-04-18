@@ -63,7 +63,7 @@
           <entry key="Processor" value="122" />
           <entry key="gitignore" value="31" />
           <entry key="java" value="12851" />
-          <entry key="md" value="1158" />
+          <entry key="md" value="1162" />
           <entry key="txt" value="169" />
           <entry key="xml" value="42" />
         </counts>
@@ -71,7 +71,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="12851" />
-          <entry key="Markdown" value="1158" />
+          <entry key="Markdown" value="1162" />
           <entry key="PLAIN_TEXT" value="322" />
           <entry key="XML" value="42" />
         </counts>
@@ -131,8 +131,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+              <first_editor relative-caret-position="-875">
+                <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -302,7 +302,7 @@
     <property name="SearchEverywhereHistoryKey" value="Assert&#9;PSI&#9;JAVA://com.sun.tools.javac.util.Assert&#10;My&#9;FILE&#9;file:///Users/huangziqi/Desktop/JavaAny/AnnotationGenerator/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555574995338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555575065045" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -390,7 +390,7 @@
       <workItem from="1555464802629" duration="20036000" />
       <workItem from="1555493672258" duration="94000" />
       <workItem from="1555552802572" duration="11280000" />
-      <workItem from="1555567523221" duration="7344000" />
+      <workItem from="1555567523221" duration="7413000" />
     </task>
     <task id="LOCAL-00001" summary="添加了可以覆盖原来方法的方式">
       <created>1555481550276</created>
@@ -420,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555574950407</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="调整代码，添加readme">
+      <created>1555575005851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555575005851</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67039000" />
+    <option name="totallyTimeSpent" value="67108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1393" height="854" extended-state="0" />
@@ -922,8 +929,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          <first_editor relative-caret-position="-875">
+            <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>

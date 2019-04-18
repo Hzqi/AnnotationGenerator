@@ -1,4 +1,4 @@
-#AnnotationGenerator
+## AnnotationGenerator
 
 这个`AnnotationGenerator`是本人在工作(互联网相关)中，
 遇到要写很多VO的情况时想到的。
@@ -28,7 +28,7 @@ So I was wondering if there was a way to directly convert POJOs into Maps. (As I
 The main implementation is to use Java's annotation processor `AnnotationProcessor` to add a Class level (or Source level) annotation to the class, and then those classes that inherit AbstractProcessor will be executed at compile time.
 At the time of execution, the Java native API (very low-level API, even Doc can not be found), get `JCTree` (that is, the Java syntax tree), add nodes to the syntax tree to add methods.
 
-###用法 Usage
+### 用法 Usage
 目前一共有三类种注解：`@CreateMapper @MyLombok @ToMapper` 对应分别是：
 * 通过生成源代码的方式来添加一个对应的类，里面有一个静态的toMap方法。（这个网上有很多教程的）
 * 自动添加Getter Setter方法。（这个肯定没有著名的Lombok功能多，我也是参考学习，希望不要对比）
