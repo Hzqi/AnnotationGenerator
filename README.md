@@ -1,4 +1,4 @@
-##AnnotationGenerator
+#AnnotationGenerator
 
 这个`AnnotationGenerator`是本人在工作(互联网相关)中，
 遇到要写很多VO的情况时想到的。

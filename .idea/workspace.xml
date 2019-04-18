@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64d442ba-a945-4100-a0d1-a3cdfd2a006e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/MyPojoPrivate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_rc1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/jctreetry/UtilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/CalzonePizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/MargheritaPizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/Meal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/meal/Tiramisu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/TheMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryAnnotatedClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryGroupedClasses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/FactoryProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/factory/ProcessingException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/jctreetry/UtilProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/CreateMapperProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/CreateMapperProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/MapperWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/MapperWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mylombok/MyLombokProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/MyLombokProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mylombok/MyLombokProcessor2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/jctreetry/JcTrees.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/jctreetry/Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/Maker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/jctreetry/ToMapMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/ToMapMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/example/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,7 +64,7 @@
           <entry key="gitignore" value="31" />
           <entry key="java" value="12851" />
           <entry key="md" value="1158" />
-          <entry key="txt" value="156" />
+          <entry key="txt" value="169" />
           <entry key="xml" value="42" />
         </counts>
       </usages-collector>
@@ -100,7 +72,7 @@
         <counts>
           <entry key="JAVA" value="12851" />
           <entry key="Markdown" value="1158" />
-          <entry key="PLAIN_TEXT" value="309" />
+          <entry key="PLAIN_TEXT" value="322" />
           <entry key="XML" value="42" />
         </counts>
       </usages-collector>
@@ -159,8 +131,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="434">
-                <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+              <first_editor>
+                <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -330,7 +302,7 @@
     <property name="SearchEverywhereHistoryKey" value="Assert&#9;PSI&#9;JAVA://com.sun.tools.javac.util.Assert&#10;My&#9;FILE&#9;file:///Users/huangziqi/Desktop/JavaAny/AnnotationGenerator/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555574915878" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555574995338" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -418,7 +390,7 @@
       <workItem from="1555464802629" duration="20036000" />
       <workItem from="1555493672258" duration="94000" />
       <workItem from="1555552802572" duration="11280000" />
-      <workItem from="1555567523221" duration="7264000" />
+      <workItem from="1555567523221" duration="7344000" />
     </task>
     <task id="LOCAL-00001" summary="添加了可以覆盖原来方法的方式">
       <created>1555481550276</created>
@@ -441,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555569067696</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="调整代码，添加readme">
+      <created>1555574950407</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555574950407</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66959000" />
+    <option name="totallyTimeSpent" value="67039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1393" height="854" extended-state="0" />
@@ -493,7 +472,8 @@
     <MESSAGE value="添加了可以覆盖原来方法的方式" />
     <MESSAGE value="尝试在map里加入常量test=test" />
     <MESSAGE value="完成toMap的方法添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成toMap的方法添加" />
+    <MESSAGE value="调整代码，添加readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整代码，添加readme" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -942,8 +922,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="434">
-            <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <first_editor>
+            <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
