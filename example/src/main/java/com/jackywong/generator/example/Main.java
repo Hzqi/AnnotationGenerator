@@ -2,6 +2,7 @@ package com.jackywong.generator.example;
 
 import com.jackywong.generator.example.mylombok.MyPojo;
 import com.jackywong.generator.example.tomapper.User;
+import com.jackywong.generator.example.tomapper.UserMapper;
 
 import java.util.Date;
 import java.util.Map;
@@ -17,6 +18,6 @@ public class Main {
         User user = new User("polllobok",0);
 
         System.out.println(myPojo.toMap());
-        System.out.println(user.toMap());
+        System.out.println(UserMapper.toMap(user));
     }
 }
