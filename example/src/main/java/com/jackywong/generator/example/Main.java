@@ -1,6 +1,7 @@
 package com.jackywong.generator.example;
 
 import com.jackywong.generator.example.mylombok.MyPojo;
+import com.jackywong.generator.example.tailrec.TestTailRec;
 import com.jackywong.generator.example.tomapper.User;
 import com.jackywong.generator.example.tomapper.UserMapper;
 
@@ -12,12 +13,10 @@ import java.util.Map;
  */
 public class Main {
     public static void main(String[] args) {
-        MyPojo myPojo = new MyPojo();
-//        myPojo.setName("polllobok");
-//        myPojo.setAge(0);
-        User user = new User("polllobok",0);
+        TestTailRec testTailRec = new TestTailRec();
 
-        System.out.println(myPojo.toMap());
-        System.out.println(UserMapper.toMap(user));
+        long res = testTailRec.fact(0,10);
+        long res2 = testTailRec.factOld(0,10);
+        System.out.println(res == res2);
     }
 }

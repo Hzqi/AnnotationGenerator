@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64d442ba-a945-4100-a0d1-a3cdfd2a006e" name="Default Changelist" comment="调整example代码">
-      <change afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/GetSetMaker.java" afterDir="false" />
+    <list default="true" id="64d442ba-a945-4100-a0d1-a3cdfd2a006e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tailrec/TestTailRec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/TailRec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/tailrec/TailRecProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/MyLombokProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/MyLombokProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/Maker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/example/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,27 +35,28 @@
     <session id="720755683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Processor" value="10" />
-          <entry key="class" value="84" />
+          <entry key="class" value="99" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="120" />
+          <entry key="java" value="130" />
           <entry key="md" value="3" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="84" />
-          <entry key="JAVA" value="120" />
+          <entry key="CLASS" value="99" />
+          <entry key="JAVA" value="130" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="14" />
@@ -66,17 +66,17 @@
         <counts>
           <entry key="Processor" value="122" />
           <entry key="gitignore" value="31" />
-          <entry key="java" value="14413" />
+          <entry key="java" value="17570" />
           <entry key="md" value="1197" />
-          <entry key="txt" value="218" />
+          <entry key="txt" value="228" />
           <entry key="xml" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14413" />
+          <entry key="JAVA" value="17570" />
           <entry key="Markdown" value="1197" />
-          <entry key="PLAIN_TEXT" value="371" />
+          <entry key="PLAIN_TEXT" value="381" />
           <entry key="XML" value="42" />
         </counts>
       </usages-collector>
@@ -85,96 +85,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/GetSetMaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1978">
-              <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/Maker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createTypeargs#0;class#Maker#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-422">
-              <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/MyLombokProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2351#4126#0" expanded="true" />
-                <element signature="e#4125#4126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/MyLombok.java">
+        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/TailRec.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/ToMapMaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,13 +97,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="569">
-                <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/tailrec/TailRecProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tailrec/TestTailRec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="82" column="51" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/ToMapMaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,8 +158,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -238,19 +197,22 @@
         <option value="$PROJECT_DIR$/processor/target/classes/META-INF/services/javax.annotation.processing.Processor" />
         <option value="$PROJECT_DIR$/processor/src/main/resources/META-INF/services/javax.annotation.processing.Processor" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/CreateMapperProcessor.java" />
-        <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mylombok/MyLombokProcessor.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tomapper/User.java" />
         <option value="$PROJECT_DIR$/processor/pom.xml" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/GetSetMaker.java" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/Maker.java" />
-        <option value="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/InitNoParamProcessor.java" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/InitNoParamConstract.java" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/MyLombok.java" />
         <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/MyLombokProcessor.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/TailRec.java" />
+        <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java" />
+        <option value="$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/tailrec/TailRecProcessor.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tailrec/TestTailRec.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java" />
       </list>
     </option>
   </component>
@@ -288,8 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,17 +300,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mylombok" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="tomapper" type="462c0819:PsiDirectoryNode" />
+              <item name="tailrec" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generator" type="b2602c69:ProjectViewProjectNode" />
@@ -437,19 +387,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="tailrec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnotationGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Assert&#9;PSI&#9;JAVA://com.sun.tools.javac.util.Assert&#10;My&#9;FILE&#9;file:///Users/huangziqi/Desktop/JavaAny/AnnotationGenerator/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555584839113" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555667810233" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -474,7 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Remote.Unnamed">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jackywong.generator.example.Main" />
       <module name="example" />
@@ -540,7 +503,9 @@
       <workItem from="1555567523221" duration="7673000" />
       <workItem from="1555576232827" duration="400000" />
       <workItem from="1555578068717" duration="256000" />
-      <workItem from="1555578575305" duration="6219000" />
+      <workItem from="1555578575305" duration="6292000" />
+      <workItem from="1555634129660" duration="8041000" />
+      <workItem from="1555647365384" duration="5570000" />
     </task>
     <task id="LOCAL-00001" summary="添加了可以覆盖原来方法的方式">
       <created>1555481550276</created>
@@ -591,17 +556,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555576595314</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="调整Lombok">
+      <created>1555584891124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555584891124</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74243000" />
+    <option name="totallyTimeSpent" value="87927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1393" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28645447" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29533678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -645,88 +617,62 @@
     <MESSAGE value="完成toMap的方法添加" />
     <MESSAGE value="调整代码，添加readme" />
     <MESSAGE value="调整example代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整example代码" />
+    <MESSAGE value="调整Lombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整Lombok" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>makeGetMethodDecl(jcVariableDecl)</expression-string>
+        <expression-string>statement.getTree()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>((Symbol.ClassSymbol) element).getNestingKind()</expression-string>
+        <expression-string>statement.getKind()</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>com.sun.tools.javac.code.Symbol</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>((Symbol.ClassSymbol) element).getSuperclass()</expression-string>
+        <expression-string>statement</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>com.sun.tools.javac.code.Symbol</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>((Symbol.ClassSymbol) element).getInterfaces()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>com.sun.tools.javac.code.Symbol</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((Symbol.ClassSymbol) element).getEnclosedElements()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>com.sun.tools.javac.code.Symbol</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>element.get</expression-string>
+        <expression-string>treeMaker.WhileLoop(treeMaker.Literal(true),loopBody).toString()</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>com.sun.tools.javac.tree.JCTree</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jcTree.getTag()</expression-string>
+        <expression-string>treeMaker.WhileLoop(treeMaker.Literal(true),loopBody)</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>com.sun.tools.javac.tree.JCTree</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jcTree.getTree().getTree().getTree()</expression-string>
+        <expression-string>treeMaker.Binary(JCTree.Tag.EQ, treeMaker.Literal(true), treeMaker.Literal(true))</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>com.sun.tools.javac.tree.JCTree</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>((JCTree.JCClassDecl) jcTree).getTree()</expression-string>
+        <expression-string>whileLoop</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>com.sun.tools.javac.tree.JCTree</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>methodStmt.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>methodStmt.toList()</expression-string>
+        <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/code/Type.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/code/Symbol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="1317" column="43" selection-start-line="1317" selection-start-column="33" selection-end-line="1317" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/code/TypeTag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/TestMethod.java" />
     <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/SetMapper.java" />
     <entry file="file://$PROJECT_DIR$/example/target/classes/com/jackywong/generator/example/tomapper/CarMapper.class" />
     <entry file="file://$PROJECT_DIR$/example/target/classes/com/jackywong/generator/example/mylombok/MyPojoMapper.class" />
@@ -760,24 +706,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/jctreetry/JcTrees.java" />
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/ToMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/tree/TreeTranslator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/tree/TreeMaker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="435" column="28" lean-forward="true" selection-start-line="435" selection-start-column="28" selection-end-line="435" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -810,10 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="85" column="32" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="32" />
-          <folding>
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,9 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,16 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/tree/JCTree.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="817" selection-start-line="817" selection-end-line="817" />
-          <folding>
-            <element signature="e#25262#25263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/target/generated-sources/annotations/com/jackywong/generator/example/tomapper/CarMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -905,13 +820,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/target/classes/com/jackywong/generator/example/tomapper/UserMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/target/classes/META-INF/services/javax.annotation.processing.Processor">
       <provider selected="true" editor-type-id="text-editor">
@@ -920,37 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/ToMapMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/Maker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createTypeargs#0;class#Maker#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/target/classes/com/jackywong/generator/example/mylombok/MyPojo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding>
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,20 +843,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java">
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/InitNoParamConstract.java" />
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/InitNoParamProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="569">
+            <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/GetSetMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="1771">
+          <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/Maker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2714">
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#createTypeargs#0;class#Maker#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/InitNoParamConstract.java">
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/MyLombokProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="1311">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -988,69 +890,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/InitNoParamProcessor.java">
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-515">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2265#3551#0" expanded="true" />
-            <element signature="e#3550#3551#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/ToMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/mapper/ToMapperProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+        <state relative-caret-position="387">
+          <caret line="82" column="51" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/GetSetMaker.java">
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/annotation/TailRec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1978">
-          <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
+        <state relative-caret-position="230">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/lombok/MyLombokProcessor.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/tree/TreeMaker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2351#4126#0" expanded="true" />
-            <element signature="e#4125#4126#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="301" column="13" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/mylombok/MyPojo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/tree/JCTree.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="282">
+          <caret line="1690" lean-forward="true" selection-start-line="1690" selection-end-line="1690" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/util/ToMapMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="569">
-            <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/example/target/classes/com/jackywong/generator/example/tailrec/TestTailRec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/tailrec/TestTailRec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/com/jackywong/generator/example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/src/main/java/com/jackywong/generator/processor/tailrec/TailRecProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
